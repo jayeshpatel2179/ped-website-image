@@ -40,7 +40,7 @@ OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
 
 # Landscape/horizontal output. Must be WIDTHxHEIGHT, both multiples of 16,
 # aspect ratio between 1:3 and 3:1.
-IMAGE_SIZE = "1536x1024"
+IMAGE_SIZE = "2048x1024"
 IMAGE_MODEL = "gpt-image-2"
 
 DEFAULT_PROMPT = (
